@@ -1,0 +1,80 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-left: 85px;
+    padding-top: 40px;
+    position: relative;
+    top: 100px;
+    z-index: 0;
+}
+
+.column-1 {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.column-1:hover {
+    background-color: rgb(216, 215, 215);
+    transition: .2s;
+}
+.thm1 {
+    width: 100%;
+    border-radius: 13px;
+    position: relative;
+}
+.title-bar {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.channel-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.channel-img {
+    width: 40px;
+    border-radius: 23px;
+    margin-left: 2px;
+}
+
+.title-content {
+    width: 78%;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.p1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: rgb(56, 54, 54);
+    margin-bottom: 10px;
+}
+
+.channel-name,
+.stats {
+    font-family: arial;
+    color: rgb(116, 108, 108);
+    font-size: 15px;
+}
+
+.three-dot-div {
+    width: 6%;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.dot-img {
+    width: 18px;
+    opacity: 0.7;
+}
