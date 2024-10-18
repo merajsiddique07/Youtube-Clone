@@ -1,0 +1,49 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 72px;
+    height: 670px;
+    top: 56px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.side-box {
+    height: 74px;
+    text-align: center;
+    padding-top: 18px;
+    width: 68px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.side-box:hover {
+    background-color: #f5f1f1;
+    border-radius: 12px;
+}
+
+.text-p {
+    font-size: 10px;
+}
+
+.home {
+    width: 24px;
+}
+
+.shorts {
+    width: 22px;
+}
+
+.subs {
+    width: 24px;
+}
+
+.library {
+    width: 21px;
+}
+
+.downloads {
+    width: 15px;
+}

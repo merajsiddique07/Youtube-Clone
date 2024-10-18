@@ -1,0 +1,40 @@
+.keywords-bar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    top: 50px;
+    position: fixed;
+    left: 80px;
+    right: 15px;
+    z-index: 100;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.key-bar {
+    flex: 1;
+    padding-top: 7px;
+    background-color: rgb(235, 235, 235);
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#all {
+    width: 40px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
+    font-family: arial;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.key-bar:hover{
+    background-color: rgb(219, 217, 217);
+}
